@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className="relative">
           <div className="flex flex-col items-center w-full mx-auto">
             <div className="flex w-screen h-full">
-              <div className="h-auto grow-0">
+              <div className="h-auto grow-0 sm:block hidden">
                 <SideMenu />
               </div>
               <div className="flex flex-col grow">

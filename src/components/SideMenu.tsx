@@ -2,8 +2,7 @@
 import { NavItemType } from '@/types/types';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaRegCheckSquare, FaRegClock } from 'react-icons/fa';
-import { IoMdLogIn } from 'react-icons/io';
+import { FaRegCheckSquare } from 'react-icons/fa';
 import { SiUdemy } from 'react-icons/si';
 
 import SiteIcon from './SiteIcon';
@@ -19,22 +18,22 @@ const SideMenu = () => {
     },
     {
       id: "2",
-      label: 'Completed Tasks',
-      link: '/completed',
+      label: 'About Me',
+      link: '/aboutme',
       icon: <FaRegCheckSquare className="size-5" />,
     },
-    {
-      id: "3",
-      label: 'Expired Tasks',
-      link: '/expired',
-      icon: <FaRegClock className="size-5" />,
-    },
-    {
-      id: "4",
-      label: 'Auth Page',
-      link: '/login',
-      icon: <IoMdLogIn className="size-5" />,
-    },
+    // {
+    //   id: "3",
+    //   label: 'Expired Tasks',
+    //   link: '/expired',
+    //   icon: <FaRegClock className="size-5" />,
+    // },
+    // {
+    //   id: "4",
+    //   label: 'Auth Page',
+    //   link: '/login',
+    //   icon: <IoMdLogIn className="size-5" />,
+    // },
   ];
   return (
     <div className="w-56 pt-8 bg-gray-900 text-white h-full">
