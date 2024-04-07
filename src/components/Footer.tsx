@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { siteConfig } from '../../site.config';
+import { siteConfig } from '../const/site.config';
 const Footer = () => {
   return (
     <footer className="text-center bg-gray-900 text-white w-screen block">
